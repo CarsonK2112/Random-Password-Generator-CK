@@ -13,6 +13,6 @@ F) Whether or not they wanted special characters in their password
 
 Within these prompts were global variables that would come into play by the end of the password generator. The global variable possible_selection, which was added to the value of the prompts in order to see whether or not the variable in question was to be added to the password.
 
-The password generator itself involves a for loop and includes other global variables whose values were the numbers/letters/characters corresponding to uppercase, lowercase, numbers, and special characters. 
+The password generator itself involves a for loop and includes other global variables whose values were the numbers/letters/characters corresponding to uppercase, lowercase, numbers, and special characters. 7
 
 At this point the password variable comes into play and its value was itself plus the possible_selection (which by this point had determined which variables were to be included), a math randomizer, and the length of the possible selection. The end result is the password as it appears on screen.
